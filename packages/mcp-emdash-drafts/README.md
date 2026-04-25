@@ -1,6 +1,6 @@
-# `@empost/mcp-emdash-drafts`
+# `@emplugins/mcp-emdash-drafts`
 
-Stdio **MCP server** for [Model Context Protocol](https://modelcontextprotocol.io) clients (**Cursor**, **Goose**, etc.): validate Markdown locally, then **sign and POST** drafts to an EmDash site running [`@empost/emdash-plugin-md-draft`](../emdash-plugin-md-draft).
+Stdio **MCP server** for [Model Context Protocol](https://modelcontextprotocol.io) clients (**Cursor**, **Goose**, etc.): validate Markdown locally, then **sign and POST** drafts to an EmDash site running [`@emplugins/emdash-plugin-md-draft`](../emdash-plugin-md-draft).
 
 ## Tools
 
@@ -21,7 +21,7 @@ Stdio **MCP server** for [Model Context Protocol](https://modelcontextprotocol.i
 ## Run (CLI / `npx`)
 
 ```bash
-npx -y @empost/mcp-emdash-drafts
+npx -y @emplugins/mcp-emdash-drafts
 ```
 
 The process speaks MCP on stdio — configure your client to launch this command with the env vars above.

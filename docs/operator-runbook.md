@@ -8,7 +8,7 @@
 ## Install plugin
 
 ```bash
-pnpm add @empost/emdash-plugin-md-draft
+pnpm add @emplugins/emdash-plugin-md-draft
 ```
 
 Register `empostMdDraftPlugin()` per the [plugin README](../packages/emdash-plugin-md-draft/README.md).
@@ -46,7 +46,7 @@ Idempotency-Key: <optional>
 {"markdown":"---\ntitle: \"Post\"\n---\n\nBody"}
 ```
 
-The HMAC covers `sha256(utf8(JSON.stringify({markdown})))` after the same validation the plugin applies (see `@empost/shared`).
+The HMAC covers `sha256(utf8(JSON.stringify({markdown})))` after the same validation the plugin applies (see `@emplugins/shared`).
 
 ## Rotate secret
 

@@ -1,11 +1,11 @@
-# `@empost/emdash-plugin-md-draft`
+# `@emplugins/emdash-plugin-md-draft`
 
-EmDash **native** plugin that exposes authenticated HTTP routes to create **`posts` drafts** from Markdown (via the `@empost/mcp-emdash-drafts` MCP server or any HMAC-aware client).
+EmDash **native** plugin that exposes authenticated HTTP routes to create **`posts` drafts** from Markdown (via the `@emplugins/mcp-emdash-drafts` MCP server or any HMAC-aware client).
 
 ## Install
 
 ```bash
-pnpm add @empost/emdash-plugin-md-draft
+pnpm add @emplugins/emdash-plugin-md-draft
 ```
 
 Peer: **`emdash` `^0.7.0`**.
@@ -15,7 +15,7 @@ Peer: **`emdash` `^0.7.0`**.
 ```ts
 import { defineConfig } from "astro/config";
 import { emdash } from "emdash/astro";
-import { empostMdDraftPlugin } from "@empost/emdash-plugin-md-draft";
+import { empostMdDraftPlugin } from "@emplugins/emdash-plugin-md-draft";
 
 export default defineConfig({
 	integrations: [

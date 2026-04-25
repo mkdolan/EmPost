@@ -7,7 +7,7 @@ Markdown-first **draft ingestion** for [EmDash](https://emdashcms.com): an npm-i
 ### I run an EmDash site
 
 ```bash
-pnpm add @empost/emdash-plugin-md-draft
+pnpm add @emplugins/emdash-plugin-md-draft
 ```
 
 Register the plugin in `astro.config.mjs` (see [`packages/emdash-plugin-md-draft/README.md`](./packages/emdash-plugin-md-draft/README.md)), configure **HMAC signing secret** and limits in `/_emdash/admin`, then use the ingest URL from the operator runbook.
@@ -16,7 +16,7 @@ Register the plugin in `astro.config.mjs` (see [`packages/emdash-plugin-md-draft
 
 ```bash
 # Optional: pin version instead of -y
-npx -y @empost/mcp-emdash-drafts
+npx -y @emplugins/mcp-emdash-drafts
 ```
 
 Add the MCP server to Cursor or Goose with env vars `EMDASH_INGEST_URL`, `EMDASH_HMAC_SECRET`, `EMDASH_KEY_ID` — see [`docs/cursor-mcp.md`](./docs/cursor-mcp.md) and [`docs/goose-mcp.md`](./docs/goose-mcp.md).
@@ -25,9 +25,9 @@ Add the MCP server to Cursor or Goose with env vars `EMDASH_INGEST_URL`, `EMDASH
 
 | Package | Description |
 |--------|-------------|
-| `@empost/shared` | Frontmatter, Zod, HMAC helpers, Markdown → Portable Text (workspace-only) |
-| `@empost/emdash-plugin-md-draft` | EmDash plugin: signed ingest + health |
-| `@empost/mcp-emdash-drafts` | MCP stdio server: `ingest_path`, `ingest_markdown`, `validate_markdown` |
+| `@emplugins/shared` | Frontmatter, Zod, HMAC helpers, Markdown → Portable Text (workspace-only) |
+| `@emplugins/emdash-plugin-md-draft` | EmDash plugin: signed ingest + health |
+| `@emplugins/mcp-emdash-drafts` | MCP stdio server: `ingest_path`, `ingest_markdown`, `validate_markdown` |
 
 ## Repo layout
 
