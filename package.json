@@ -1,0 +1,15 @@
+{
+  "name": "empost",
+  "private": true,
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "pack:check": "cd packages/emdash-plugin-md-draft && npm pack --dry-run && cd ../mcp-emdash-drafts && npm pack --dry-run"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.11",
+    "typescript": "^5.7.3"
+  }
+}
