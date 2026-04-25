@@ -1,4 +1,4 @@
-# @empost/mcp-emdash-drafts
+# @emplugins/mcp-emdash-drafts
 
 ## 0.2.0
 

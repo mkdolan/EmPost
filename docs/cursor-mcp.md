@@ -5,7 +5,7 @@
 Use `npx` so you do not need a global install:
 
 ```bash
-npx -y @empost/mcp-emdash-drafts
+npx -y @emplugins/mcp-emdash-drafts
 ```
 
 ## 2. Project MCP config
@@ -17,7 +17,7 @@ Add a **stdio** server entry (Cursor **Settings → MCP** or project `.cursor/mc
   "mcpServers": {
     "emdash-drafts": {
       "command": "npx",
-      "args": ["-y", "@empost/mcp-emdash-drafts"],
+      "args": ["-y", "@emplugins/mcp-emdash-drafts"],
       "env": {
         "EMDASH_INGEST_URL": "https://YOUR_SITE/_emdash/api/plugins/empost-md-draft/ingest",
         "EMDASH_HMAC_SECRET": "YOUR_SECRET",

@@ -1,12 +1,12 @@
 # Merge into your Goose MCP configuration (shape may vary by Goose version).
-# This documents the command + environment required for @empost/mcp-emdash-drafts.
+# This documents the command + environment required for @emplugins/mcp-emdash-drafts.
 
 mcp_servers:
   emdash_drafts:
     command: npx
     args:
       - "-y"
-      - "@empost/mcp-emdash-drafts"
+      - "@emplugins/mcp-emdash-drafts"
     env:
       EMDASH_INGEST_URL: "https://YOUR_SITE/_emdash/api/plugins/empost-md-draft/ingest"
       EMDASH_HMAC_SECRET: "REPLACE_WITH_PLUGIN_SECRET"

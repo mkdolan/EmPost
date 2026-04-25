@@ -1,4 +1,4 @@
-# @empost/emdash-plugin-md-draft
+# @emplugins/emdash-plugin-md-draft
 
 ## 0.2.0
 

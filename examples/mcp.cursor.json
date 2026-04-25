@@ -2,7 +2,7 @@
   "mcpServers": {
     "emdash-drafts": {
       "command": "npx",
-      "args": ["-y", "@empost/mcp-emdash-drafts"],
+      "args": ["-y", "@emplugins/mcp-emdash-drafts"],
       "env": {
         "EMDASH_INGEST_URL": "https://YOUR_SITE/_emdash/api/plugins/empost-md-draft/ingest",
         "EMDASH_HMAC_SECRET": "REPLACE_WITH_PLUGIN_SECRET",
