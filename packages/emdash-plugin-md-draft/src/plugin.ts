@@ -15,7 +15,7 @@ import {
 	sha256Hex,
 	slugFromTitle,
 	timingSafeEqualHex,
-} from "@empost/shared";
+} from "@emplugins/shared";
 import { definePlugin, PluginRouteError, type PluginContext, type RouteContext } from "emdash";
 
 async function numSetting(ctx: PluginContext, key: string, fallback: number): Promise<number> {

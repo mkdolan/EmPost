@@ -41,7 +41,7 @@
     "emdash": "^0.7.0"
   },
   "dependencies": {
-    "@empost/shared": "workspace:*"
+    "@emplugins/shared": "workspace:*"
   },
   "devDependencies": {
     "emdash": "0.7.0",

@@ -1,4 +1,4 @@
-import { buildCanonicalString, canonicalIngestBodyBytes, hmacSha256Hex, sha256Hex } from "@empost/shared";
+import { buildCanonicalString, canonicalIngestBodyBytes, hmacSha256Hex, sha256Hex } from "@emplugins/shared";
 import { randomUUID } from "node:crypto";
 
 export type IngestEnv = {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildCanonicalString, canonicalIngestBodyBytes, hmacSha256Hex, sha256Hex, timingSafeEqualHex } from "@empost/shared";
+import { buildCanonicalString, canonicalIngestBodyBytes, hmacSha256Hex, sha256Hex, timingSafeEqualHex } from "@emplugins/shared";
 import { loadIngestEnv } from "../src/ingest-client.js";
 
 describe("signAndPostIngest canonical alignment", () => {

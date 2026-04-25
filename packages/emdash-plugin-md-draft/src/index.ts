@@ -13,7 +13,7 @@ export function empostMdDraftPlugin(): PluginDescriptor {
 	return {
 		id: "empost-md-draft",
 		version: PKG_VERSION,
-		entrypoint: "@empost/emdash-plugin-md-draft/plugin",
+		entrypoint: "@emplugins/emdash-plugin-md-draft/plugin",
 		format: "native",
 	};
 }

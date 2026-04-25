@@ -4,7 +4,7 @@ import { z } from "zod";
 import { readFile } from "node:fs/promises";
 import { stat } from "node:fs/promises";
 import { extname } from "node:path";
-import { parseMarkdownDocument } from "@empost/shared";
+import { parseMarkdownDocument } from "@emplugins/shared";
 import { loadIngestEnv, signAndPostIngest } from "./ingest-client.js";
 
 function toolText(obj: unknown): { content: Array<{ type: "text"; text: string }> } {

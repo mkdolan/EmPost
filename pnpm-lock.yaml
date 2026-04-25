@@ -17,7 +17,7 @@ importers:
 
   packages/emdash-plugin-md-draft:
     dependencies:
-      '@empost/shared':
+      '@emplugins/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
@@ -36,7 +36,7 @@ importers:
 
   packages/mcp-emdash-drafts:
     dependencies:
-      '@empost/shared':
+      '@emplugins/shared':
         specifier: workspace:*
         version: link:../shared
       '@modelcontextprotocol/sdk':

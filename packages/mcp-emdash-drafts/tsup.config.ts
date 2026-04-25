@@ -10,5 +10,5 @@ export default defineConfig({
 	banner: {
 		js: "#!/usr/bin/env node",
 	},
-	noExternal: ["@empost/shared"],
+	noExternal: ["@emplugins/shared"],
 });
