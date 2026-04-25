@@ -1,5 +1,5 @@
 {
-  "name": "@empost/emdash-plugin-md-draft",
+"name": "@emplugins/emdash-plugin-md-draft"
   "version": "0.2.0",
   "description": "EmDash plugin: HMAC-signed Markdown draft ingest for EmPost",
   "type": "module",
