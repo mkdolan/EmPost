@@ -1,6 +1,6 @@
 {
   "name": "@empost/mcp-emdash-drafts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server: ingest Markdown drafts into EmDash via EmPost plugin",
   "type": "module",
   "license": "MIT",
@@ -9,13 +9,22 @@
     "url": "https://github.com/empost/empost.git",
     "directory": "packages/mcp-emdash-drafts"
   },
-  "keywords": ["mcp", "emdash", "cursor", "goose", "markdown"],
+  "keywords": [
+    "mcp",
+    "emdash",
+    "cursor",
+    "goose",
+    "markdown"
+  ],
   "bin": {
     "empost-mcp-emdash-drafts": "./dist/cli.js"
   },
   "main": "./dist/cli.js",
   "types": "./dist/cli.d.ts",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
